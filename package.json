@@ -1,19 +1,60 @@
 {
-  "name": "@zeit/next-css",
-  "version": "0.2.1-canary.4",
-  "main": "index.js",
-  "license": "MIT",
-  "repository": "zeit/next-plugins",
+  "_args": [
+    [
+      "@zeit/next-css@1.0.2-canary.2",
+      "/mnt/c/Users/christiaan/Projects/AAAServer2.0/Frontend/client-application-next"
+    ]
+  ],
+  "_development": true,
+  "_from": "@zeit/next-css@1.0.2-canary.2",
+  "_id": "@zeit/next-css@1.0.2-canary.2",
+  "_inBundle": false,
+  "_integrity": "sha512-3zNmZy9jw+BZqzfmsXa14zH7pCs4VLj7Y9rqukWciSE5OBbTwoSCBa2+JeRSgorhmGd4sq3vqeoG24iHbgWiGQ==",
+  "_location": "/@zeit/next-css",
+  "_phantomChildren": {
+    "locate-path": "2.0.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@zeit/next-css@1.0.2-canary.2",
+    "name": "@zeit/next-css",
+    "escapedName": "@zeit%2fnext-css",
+    "scope": "@zeit",
+    "rawSpec": "1.0.2-canary.2",
+    "saveSpec": null,
+    "fetchSpec": "1.0.2-canary.2"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@zeit/next-css/-/next-css-1.0.2-canary.2.tgz",
+  "_spec": "1.0.2-canary.2",
+  "_where": "/mnt/c/Users/christiaan/Projects/AAAServer2.0/Frontend/client-application-next",
+  "bugs": {
+    "url": "https://github.com/zeit/next-plugins/issues"
+  },
   "dependencies": {
-    "css-loader": "^2.1.0",
+    "css-loader": "1.0.0",
     "extract-css-chunks-webpack-plugin": "^4.6.0",
-    "find-up": "^3.0.0",
-    "ignore-loader": "~0.1.2",
+    "extracted-loader": "1.0.4",
+    "find-up": "2.1.0",
+    "ignore-loader": "0.1.2",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
-    "postcss-loader": "^3.0.0"
+    "postcss-loader": "3.0.0"
   },
+  "description": "Import `.css` files in your Next.js project",
   "devDependencies": {
-    "webpack": "^4.29.5"
+    "webpack": "^4.16.3"
   },
-  "gitHead": "31e8978d07e5468f760a222a72d1e8f3f457e6ff"
+  "gitHead": "404368d10a2fbcbdceb90413a07b036154d7d0a6",
+  "homepage": "https://github.com/zeit/next-plugins#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@zeit/next-css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeit/next-plugins.git"
+  },
+  "version": "1.0.2-canary.2"
 }
